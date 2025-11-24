@@ -1,37 +1,164 @@
+# CS 330 – 3D Desk Scene (C++ / OpenGL)
+## Author: **Kain Mason**
 
-# CS 330 - Computer Graphics and Visualization  
-**Kain Mason**
+This project was created for the SNHU CS-330 Computer Graphics and Visualization course. It demonstrates the fundamentals of 3D graphics programming using **C++ and OpenGL**, including object construction, transformations, lighting, textures, and camera movement. The final scene contains multiple custom objects that I built using geometry-generation algorithms and an organized rendering pipeline.
 
-**Southern New Hampshire University**
+---
 
-## Overview
+#  How to Download, Build, and Run the Project
 
-Hey! Here’s a quick rundown of what I’ve been up to in my CS 330: Computer Graphics and Visualization class at SNHU Online. This course was my entry point into the fascinating world of 3D graphics using OpenGL and C++. I started with some basic tutorials, but things got really interesting when I developed the `SceneBuilder` and `ShapeBuilder` classes from the ground up. These classes made it so much easier to create and render objects in a 3D scene. My final project is a perfect example of how these classes work together to create something pretty cool and user-friendly.
+##  1. Download the Project
 
-Over the semester, I tackled several projects that helped me get a solid understanding of 3D modeling, texturing, and lighting. The final project, which I’m really proud of, is a complete 3D scene that brings together everything I learned. It’s been a tough journey, but super rewarding.
+###  Using the ZIP File*
+1. Download the ZIP file  
+2. Extract it  
+3. Open the project in **Visual Studio**
 
-If you’re into coding and 3D graphics, you might find my code helpful. I’ve thoroughly commented on the `SceneBuilder.cpp` file to guide anyone looking to create and render shapes in a 3D environment.
+###  2. Required Tools
+You will need:
 
-## Final Project: A 3D Desk Scene
 
-Here’s a look at my final project—a detailed 3D desk scene featuring a laptop, a cup of pencils, and a few other desk essentials. The aim was to make everything look as realistic as possible by carefully modeling each object, applying accurate textures, and setting up dynamic lighting.
+Visual Studio (recommended)
 
-### Scene Overview
 
-This is the full desk setup, where I focused on capturing the little details to make the scene feel like an actual workspace.
+OpenGL (installed with GPU drivers)
 
-### Pencil Cup
 
-The pencil cup was built using hollow cylinders, and I spent quite a bit of time getting the textures just right to make it look natural.
+GLEW
 
-### Laptop
 
-The laptop’s buttons and screen were textured to create the illusion of depth, even though the surface is flat.
+GLFW or FreeGLUT 
 
-### Scene Builder and Shape Builder Algorithms
 
-I wrote all the algorithms for creating the objects in this scene from scratch. These handle everything from building the shapes to applying the textures.
 
-## The Final Product: The Desk Scene
+### 3. Build Instructions (Visual Studio)
 
-For the final project, a key requirement was to incorporate multiple light sources and make the scene interactive. The animation below shows how the lights interact with the objects. The camera controls include `WASD` for movement, `QE` for altitude adjustments, and the mouse wheel to change speed. You can also change the view with the mouse, and there’s a wireframe mode you can toggle with the arrow keys.
+
+Open the .sln file
+
+
+Set configuration to:
+
+
+Release
+
+
+x64
+
+
+
+
+Right-click the project → Set as Startup Project
+
+
+Build the solution:
+Ctrl + Shift + B
+
+
+
+ ### 4. Run the Program
+Run it using F5 or Start Debugging.
+Default Project Controls
+ActionKeyMove CameraW A S DMove Up/DownQ / ELook AroundMouseAdjust Camera SpeedMouse WheelWireframe ModeLeft / Right ArrowToggle Lights[ ] or ALT keysReset CameraR
+
+## Project Overview
+# This 3D scene includes:
+
+
+Multiple custom geometric shapes
+
+
+Controllable lighting system
+
+
+Texture-mapped surfaces
+
+
+Smooth camera controls
+
+
+A complete desk environment
+
+
+# Core programming components include:
+
+
+Vertex array generation
+
+
+Texture coordinate mapping
+
+
+Shape-building algorithms
+
+
+Model/view/projection transformations
+
+
+Scene assembly logic
+
+--------------------------------------------------------------------------------------------------------------------
+
+# Enhancements Completed for CS-499 (Algorithms & Data Structures)
+
+ 
+# Geometry Algorithm Refactoring
+
+
+Removed duplicated vertex-generation logic
+
+
+Added reusable shape-building functions
+
+
+Improved mathematical precision in geometry construction
+
+
+# Improved Data Structures
+
+
+Replaced raw arrays with std::vector
+
+
+Implemented structured containers for vertices, normals, and textures
+
+
+Reduced memory risk and improved readability
+
+
+ # Transformation Pipeline Cleanup
+
+
+Simplified order of operations
+
+
+Improved hierarchy of object transformations
+
+
+Enhanced clarity between model, view, and projection steps
+
+
+# Documentation & Comments
+
+
+Added detailed explanations to geometry sections
+
+
+Added algorithm reasoning and occasional complexity notes
+
+
+Cleaned outdated or unclear comments
+
+
+# Stability & Cleanup
+
+
+Removed unused code
+
+
+Added bounds checking
+
+
+Repaired small rendering inconsistencies
+
+
