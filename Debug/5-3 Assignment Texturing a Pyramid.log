@@ -1,0 +1,8 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (OpenGLPractice016_Module_5_Texture-a-Pyramid.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  ShapeBuilder.cpp
+C:\Users\Lawrence\Git Repos\SNHU_CS_330_Projects\4-3 Assignment Basic Camera Movement\ShapeBuilder.cpp(57,8): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Lawrence\Git Repos\SNHU_CS_330_Projects\4-3 Assignment Basic Camera Movement\ShapeBuilder.cpp(164,8): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Lawrence\Git Repos\SNHU_CS_330_Projects\4-3 Assignment Basic Camera Movement\ShapeBuilder.cpp(289,8): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Lawrence\Git Repos\SNHU_CS_330_Projects\4-3 Assignment Basic Camera Movement\ShapeBuilder.cpp(482,8): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Lawrence\Git Repos\SNHU_CS_330_Projects\4-3 Assignment Basic Camera Movement\ShapeBuilder.cpp(607,8): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  5-3 Assignment Texturing a Pyramid.vcxproj -> C:\Users\Lawrence\Git Repos\SNHU_CS_330_Projects\Debug\5-3 Texturing a Pyramid.exe
