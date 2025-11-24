@@ -1,11 +1,8 @@
 //---------------------------------------------------
 //
 // Kain Mason
-// CS-330 Comp Graphic and Viz
-// Assignment 6-3
-//
-// LIGHTING A PYRAMID
-//
+// CS-330 Comp Graphic 
+
 //---------------------------------------------------
 
 
@@ -938,4 +935,5 @@ void UCreateLightMesh(GLightMesh& lightMesh)
 
 	glVertexAttribPointer(2, floatsPerUV, GL_FLOAT, GL_FALSE, stride, (void*)(sizeof(float) * (floatsPerVertex + floatsPerNormal)));
 	glEnableVertexAttribArray(2);
+
 }
